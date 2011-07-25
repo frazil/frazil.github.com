@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: this is a sample post
-excerpt: some excerpt...
+subtitle: this is the sample subtitle
 ---
 
 OK and here should be the content...

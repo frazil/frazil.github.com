@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
-Foo
-{{ content }}
+<h1>
+  {{ page.title }}
+  <div class="subtitle">{{ page.subtitle }}</div>
+</h1>
 
+
+{% if page.date %}
+<p class="date">Written on {{ page.date | date: "%B %e, %Y" }}.</p>
+{% endif %}
+
+{{ content }}

@@ -5,6 +5,12 @@
 <div style="width: 100%; height: 50%; display:block;"><img src="logo.png" alt="fraZil.org coming soon" title="fraZil.org coming soon" style="margin: auto auto;display: block;"/>
 </div>
 <hr/>
+<h1>{{ page.title }}</h1>
+{% if page.subtitle %}
+<p><em>{{ page.subtitle }}</em></p>
+{% endif %}
+
+<hr/>
 {{ content }}
 <body/>
 </html>
