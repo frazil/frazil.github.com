@@ -1,0 +1,8 @@
+---
+layout: post
+title: this is a sample post
+excerpt: some excerpt...
+---
+
+OK and here should be the content...
+
