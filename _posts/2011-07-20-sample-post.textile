@@ -1,8 +1,6 @@
 ---
 layout: default
-title: this is a sample post
-subtitle: this is the sample subtitle
+title: Blog
+subtitle: The blog
 ---
-
 OK and here should be the content...
-
